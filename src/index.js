@@ -1,5 +1,6 @@
 import { pageLoad } from "./PageLoad.js";
 import { loadMenu } from "./menu.js";
+import { loadAbout } from "./about.js";
 
 pageLoad();
 
@@ -19,8 +20,12 @@ nav.addEventListener("click", (e) => {
     if (target.textContent == "Home") {
         pageLoad();
     }
-    
+
     if (target.textContent == "Menu") {
         loadMenu();
+    }
+
+    if (target.textContent == "About") {
+        loadAbout();
     }
 })
