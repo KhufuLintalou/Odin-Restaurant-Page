@@ -16,7 +16,7 @@ export function loadMenu() {
         const placeholder = document.createElement("img");
         placeholder.src = menuImage;
 
-        const dishName = document.createElement("h3");
+        const dishName = document.createElement("h2");
         dishName.textContent = "DISH NAME";
 
         const description = document.createElement("p");

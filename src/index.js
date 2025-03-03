@@ -1,6 +1,7 @@
 import { pageLoad } from "./PageLoad.js";
 import { loadMenu } from "./menu.js";
 import { loadAbout } from "./about.js";
+import "./style.css";
 
 pageLoad();
 
